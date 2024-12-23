@@ -32,12 +32,16 @@
             android:gravity="center_vertical"
             android:paddingStart="12sp"
             android:text="@string/settings"
-            android:textColor="@color/black"
+            android:textColor="@color/alternative_black"
             android:textSize="22sp" />
     </LinearLayout>
 
     <LinearLayout
         style="@style/SettingsListItemStyle"
+        android:layout_height="@dimen/settings_list_item_height"
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/settings_list_item_padding_start"
+        android:paddingEnd="@dimen/settings_list_item_padding_end"
         android:layout_marginTop="24dp">
 
         <TextView
@@ -55,7 +59,12 @@
             tools:ignore="UseSwitchCompatOrMaterialXml" />
     </LinearLayout>
 
-    <LinearLayout style="@style/SettingsListItemStyle">
+    <LinearLayout
+        style="@style/SettingsListItemStyle"
+        android:layout_height="@dimen/settings_list_item_height"
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/settings_list_item_padding_start"
+        android:paddingEnd="@dimen/settings_list_item_padding_end" >
 
         <TextView
             android:id="@+id/share"
@@ -73,7 +82,12 @@
 
     </LinearLayout>
 
-    <LinearLayout style="@style/SettingsListItemStyle">
+    <LinearLayout
+        style="@style/SettingsListItemStyle"
+        android:layout_height="@dimen/settings_list_item_height"
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/settings_list_item_padding_start"
+        android:paddingEnd="@dimen/settings_list_item_padding_end" >
 
         <TextView
             android:id="@+id/support"
@@ -90,7 +104,13 @@
             app:srcCompat="@drawable/support" />
     </LinearLayout>
 
-    <LinearLayout style="@style/SettingsListItemStyle">
+    <LinearLayout
+        style="@style/SettingsListItemStyle"
+        android:layout_height="@dimen/settings_list_item_height"
+        android:layout_width="match_parent"
+        android:paddingStart="@dimen/settings_list_item_padding_start"
+        android:paddingEnd="@dimen/settings_list_item_padding_end" >
+
         <TextView
             android:id="@+id/user_agreement"
             style="@style/SettingsListTextStyle"
