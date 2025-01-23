@@ -12,4 +12,10 @@
     <string name="user_agreement">Пользовательское соглашение</string>
     <string name="user_agreement_image_description">Иконка "пользовательское соглашение"</string>
     <string name="back_button_description">Перейти на экран назад</string>
+    <string name="practicum_url">https://practicum.yandex.ru/android-developer/</string>
+    <string name="target_email">denis@example.com</string>
+    <string name="mail_subject">Сообщение разработчикам и разработчицам приложения Playlist Maker</string>
+    <string name="mail_body">Спасибо разработчикам и разработчицам за крутое приложение!</string>
+    <string name="mail_client_not_found">Спасибо разработчикам и разработчицам за крутое приложение!</string>
+    <string name="practicum_offer">https://yandex.ru/legal/practicum_offer</string>
 </resources>
