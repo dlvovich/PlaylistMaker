@@ -7,16 +7,17 @@ import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : PLMakerActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        setStatusBar()
         setButtonActions()
     }
 
-    private fun setButtonActions() {
+    override protected fun setButtonActions() {
         setSearchButtonAction()
         setLibButtonAction()
         setSettingsButtonAction()
