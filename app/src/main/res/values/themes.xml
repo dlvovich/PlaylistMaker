@@ -12,6 +12,6 @@
         <item name="iconsTintColor">@color/icon_gray</item>
         <item name="searchBarBackground">@color/search_bar_background</item>
         <item name="searchBarElementColor">@color/search_bar_text_color</item>
-
+        <item name="trackTitle">@color/black</item>
     </style>
 </resources>

@@ -8,5 +8,6 @@
         <attr name="iconsTintColor" format="color" />
         <attr name="searchBarBackground" format="color" />
         <attr name="searchBarElementColor" format="color" />
+        <attr name="trackTitle" format="color" />
     </declare-styleable>
 </resources>

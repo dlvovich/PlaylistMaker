@@ -9,5 +9,6 @@
         <item name="iconsTintColor">@color/white</item>
         <item name="searchBarBackground">@color/white</item>
         <item name="searchBarElementColor">@color/alternative_black</item>
+        <item name="trackTitle">@color/white</item>
     </style>
 </resources>
